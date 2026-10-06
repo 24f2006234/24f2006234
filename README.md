@@ -1,5 +1,18 @@
 # 💫 About Me:
-# Hi, I'm Aniruddha Das 👋<br><br>I'm a dual-degree student pursuing a B.Tech in Computer Science Engineering at Adamas University and a BS in Data Science at IIT Madras. I build full-stack and machine learning systems end-to-end, from the model to the deployed application, and I'm currently looking for software engineering internships.<br><br> Projects<br><br>- **AeroGrid**: An aviation intelligence platform that visualizes live global flight telemetry on a WebGL globe and predicts arrival times with a PyTorch model served through FastAPI (~8.9 min validation MAE).<br>- **Placement Portal**: An ML-based platform that matches resumes to job postings.<br>- **SurplusGrid**: A renewable energy marketplace that matches surplus producers with flexible consumers, with dashboards for both sides.<br>- **Checkpost**: A wire-level firewall for autonomous AI agents that allows, denies or quarantines each action before it runs. Built at Build With Bharat 2.0, NIT Delhi.<br><br> Achievements<br><br>- 1st place, Coding Premier League, SIGNIFIYA 2026 (Adamas University)<br>- 1st place, VibeForge 1.0 (Adamas University)<br>- 1st runner-up, InnovateX 2.0 (IMI Kolkata Techfest)<br>- Finalist, Hackforge, Srijan 2026 (Jadavpur University)<br><br> Tech Stack<br><br>**Languages:** Python, TypeScript, JavaScript, C++<br>**Frontend:** React, Vite, Tailwind CSS, WebGL<br>**Backend:** Node.js, Express, Flask, FastAPI<br>**ML / Data:** PyTorch, scikit-learn, Pandas, SQL<br>**Tools:** Git, Google Cloud Platform<br><br> Contact<br><br>- Portfolio: https://aniruddhadas.vercel.app<br>- LinkedIn: linkedin.com/in/aniruddha-das-73a850319<br>- Email: aniruddha84860@gmail.com
+## Hello, I am Aniruddha Das
+
+![Full-Stack Developer](https://img.shields.io/badge/Full--Stack_Developer-1f2937?style=flat-square)
+![ML](https://img.shields.io/badge/Machine_Learning-1f2937?style=flat-square)
+![IIT Madras](https://img.shields.io/badge/BS_Data_Science-IIT_Madras-1f2937?style=flat-square)
+![Adamas](https://img.shields.io/badge/B.Tech_CSE-Adamas_University-1f2937?style=flat-square)
+![Hackathons](https://img.shields.io/badge/Hackathon-Winner-1f2937?style=flat-square)
+![Internships](https://img.shields.io/badge/Seeking-SWE_Internships-1f2937?style=flat-square)
+
+I'm a full-stack and ML developer who builds systems end-to-end, from the model to the deployed app. My work includes AeroGrid, an aviation platform with a PyTorch ETA model, a resume-to-job matching platform, and an AI agent firewall built at NIT Delhi. I'm looking for software engineering internships.
+
+### My Contribution
+
+![Contribution graph](https://github-readme-streak-stats.herokuapp.com/?user=24f2006234&theme=dark&hide_border=true) Contact<br><br>- Portfolio: https://aniruddhadas.vercel.app<br>- LinkedIn: linkedin.com/in/aniruddha-das-73a850319<br>- Email: aniruddha84860@gmail.com
 
 
 ## 🌐 Socials:
