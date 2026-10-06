@@ -10,7 +10,7 @@
 
 I'm a full-stack and ML developer who builds systems end-to-end, from the model to the deployed app. My work includes AeroGrid, an aviation platform with a PyTorch ETA model, a resume-to-job matching platform, and an AI agent firewall built at NIT Delhi. I'm looking for software engineering internships.
 
-Contacts:<br><br>- Portfolio: https://aniruddhadas.vercel.app<br>- LinkedIn: linkedin.com/in/aniruddha-das-73a850319<br>- Email: aniruddha84860@gmail.com
+Contacts:<br><br>- Portfolio: https://aniruddhadas.vercel.app<br>- LinkedIn: [linkedin.com/in/aniruddha-das-73a850319](https://www.linkedin.com/in/aniruddha-das-73a850319/?isSelfProfile=true)<br>- Email: aniruddha84860@gmail.com
 
 
 ## Socials:
