@@ -22,13 +22,14 @@ I'm a full-stack and ML developer who builds systems end-to-end, from the model 
 
 ## Featured Work
 
-| Project | What it is | Highlights |
+| Project | Overview | Highlights |
 | :-- | :-- | :-- |
-| **AeroGrid** | Aviation platform | PyTorch ETA model, full-stack delivery |
-| **Resume–Job Matching Platform** | ML-based matching of resumes to jobs | End-to-end ML application |
-| **Checkpost** | AI agent firewall | Built at Build With Bharat 2.0, NIT Delhi |
+| **AeroGrid** | Full-stack aviation intelligence platform | Live telemetry, trained PyTorch ETA model, WebGL visualization. Built with React, TypeScript, Node.js and FastAPI |
+| **Resume-Job Matching Platform** | ML-based platform matching resumes to jobs | Scikit-Learn matching model, Google Gemini API integration. Built with React, Vite and Flask |
+| **Checkpost** | Wire-level firewall for autonomous AI agents, built in 2 days at Build With Bharat 2.0 (NIT Delhi) | Allow, Deny or Quarantine decision on every agent action, live human-review dashboard, hard budget stop for runaway agents, deterministic sub-millisecond policy engine, real-time cost and loop tracking. Built with FastAPI, React and WebSockets |
+| **SurplusGrid** | Renewable energy marketplace matching surplus producer energy with flexible consumer demand | Producer and Consumer dashboards, rule-based matching, time-window scheduling, cost and savings analysis, carbon-offset analytics, designed for short-term generation forecasting |
 
-🌐 More at **[aniruddhadas.vercel.app](https://aniruddhadas.vercel.app)**
+More at **[aniruddhadas.vercel.app](https://aniruddhadas.vercel.app)**
 
 ## Tech Stack
 
