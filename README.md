@@ -4,7 +4,7 @@
 
 <b>Full-Stack & ML Developer</b>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+systems+end-to-end%2C+from+model+to+deployed+app;B.Tech+CSE+%C2%B7+Adamas+University;BS+Data+Science+%C2%B7+IIT+Madras;Hackathon+winner+%C2%B7+Seeking+SWE+internships" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+systems+end-to-end%2C+from+model+to+deployed+app;B.Tech+CSE+%C2%B7+Adamas+University;BS+Data+Science+%C2%B7+IIT+Madras;4+Hackathon+Wins+%C2%B7+2+Finalists;Seeking+SWE+internships" alt="Typing SVG" /></a>
 
 <br/>
 
