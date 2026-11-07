@@ -1,60 +1,87 @@
 <div align="center">
 
-<h1>Aniruddha Das</h1>
+# Aniruddha Das
 
-<b>Full-Stack & ML Developer</b>
+### Backend & Applied AI Engineer
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+systems+end-to-end%2C+from+model+to+deployed+app;B.Tech+CSE+%C2%B7+Adamas+University;BS+Data+Science+%C2%B7+IIT+Madras;4+Hackathon+Wins+%C2%B7+2+Finalists;Seeking+SWE+internships" alt="Typing SVG" /></a>
+I build AI agents, machine-learning services, and the APIs that put them into production.
 
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-aniruddhadas.vercel.app-2563eb?style=for-the-badge&logo=vercel&logoColor=white)](https://aniruddhadas.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aniruddha-das-73a850319)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniruddha84860@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://aniruddhadas.vercel.app)
+[![Resume](https://img.shields.io/badge/R%C3%A9sum%C3%A9-D93A2B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://aniruddhadas.vercel.app/Aniruddha_Resume.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniruddha-das-73a850319)
+[![Email](https://img.shields.io/badge/Email-555555?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniruddha84860@gmail.com)
 
 </div>
-
----
 
 ## About
 
-I'm a full-stack and ML developer who builds systems end-to-end, from the model to the deployed app. I'm currently pursuing a **B.Tech in Computer Science Engineering** at Adamas University alongside a **BS in Data Science & Applications** at IIT Madras, and I'm looking for **software engineering internships**.
+I'm pursuing a **BS in Data Science and Applications at IIT Madras** alongside a **B.Tech in Computer Science Engineering at Adamas University**. My work sits where models meet production: API design, agent workflows, model serving, evaluation, and the safeguards around them.
 
-## Featured Work
+- **6×** hackathon winner and finalist, including **4× first place**
+- Usually responsible for the **backend and AI layer** on team projects
+- Open to **backend, full-stack, and AI/ML internships**
 
-| Project | Overview | Highlights |
-| :-- | :-- | :-- |
-| **AeroGrid** | Full-stack aviation intelligence platform | Live telemetry, trained PyTorch ETA model, WebGL visualization. Built with React, TypeScript, Node.js and FastAPI |
-| **Resume-Job Matching Platform** | ML-based platform matching resumes to jobs | Scikit-Learn matching model, Google Gemini API integration. Built with React, Vite and Flask |
-| **Checkpost** | Wire-level firewall for autonomous AI agents, built in 2 days at Build With Bharat 2.0 (NIT Delhi) | Allow, Deny or Quarantine decision on every agent action, live human-review dashboard, hard budget stop for runaway agents, deterministic sub-millisecond policy engine, real-time cost and loop tracking. Built with FastAPI, React and WebSockets |
-| **SurplusGrid** | Renewable energy marketplace matching surplus producer energy with flexible consumer demand | Producer and Consumer dashboards, rule-based matching, time-window scheduling, cost and savings analysis, carbon-offset analytics, designed for short-term generation forecasting |
+## Selected work
 
-More at **[aniruddhadas.vercel.app](https://aniruddhadas.vercel.app)**
+### [Vardaan](https://github.com/fantastic4-team/Vardaan) · [Live demo](https://thevardaan.vercel.app)
 
-## Tech Stack
+**Backend & AI Engineer · 1st Place, Aki Hacks × Hacktoberfest '26**
 
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=py,ts,js,cpp&theme=dark" alt="Languages" />
+A voice-first AI agent that completes tasks over real phone calls in 11 Indian languages plus Hinglish. I built the agent API, tool-calling loop, search fallbacks, memory and reminder callbacks, provider abstraction, and endpoint security.
 
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind&theme=dark" alt="Frontend" /> ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
+`Next.js` `TypeScript` `Groq / Llama 3.3` `Gemini` `Sarvam Voice AI`
 
-**Backend & Database**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,sqlite&theme=dark" alt="Backend" />
+### [Checkpost](https://github.com/pradhan-not-found/Checkpost) · [Live demo](https://checkpost-ai.vercel.app)
 
-**ML & Data**<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,pandas&theme=dark" alt="ML" />
+**Backend & Policy Engine**
 
-**Tools & Cloud**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,gcp,vercel&theme=dark" alt="Tools" />
+A deny-by-default policy firewall for autonomous agents. It intercepts tool calls before execution, enforces deterministic rules and budgets, and holds sensitive actions for human approval—with policy checks under a millisecond.
 
-## GitHub Stats
+`Next.js` `TypeScript` `Firebase` `Firestore` `Supabase`
 
-<div align="center">
+### [AeroGrid](https://github.com/24f2006234/AeroGrid_Analytics)
 
-<img height="170" src="https://github-readme-stats.shion.dev/api?username=24f2006234&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=24f2006234&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top languages" />
+**Personal project**
 
-<img src="https://streak-stats.demolab.com/?user=24f2006234&theme=tokyonight&hide_border=true" alt="Streak" />
+Live aviation telemetry over Indian airspace with a PyTorch ETA service. The model reaches **~9.1 min mean error**, improves on the mean baseline by **55%**, and serves predictions in **~0.03 ms** on CPU.
 
-</div>
+`React` `TypeScript` `Node.js` `FastAPI` `PyTorch` `Three.js`
+
+### [Placement Portal](https://github.com/24f2006234/placement-portal_app)
+
+**Academic project · IIT Madras**
+
+An explainable candidate-ranking platform. Skill-aware TF-IDF matching improved **NDCG@5 from 0.84 to 0.96**, made ranking **~11× faster**, and is covered by 120 tests at 99% coverage.
+
+`React` `Flask` `SQLAlchemy` `scikit-learn` `Gemini API` `Pytest`
+
+## Toolbox
+
+**Languages**<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Backend & AI**<br>
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-111111?style=flat-square&logo=flask&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+
+**Frontend, data & delivery**<br>
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=111111)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white)
+
+## Let's talk
+
+I'm looking for internship opportunities where I can work on backend systems, applied AI, or full-stack products with a strong engineering core. The quickest way to reach me is at **[aniruddha84860@gmail.com](mailto:aniruddha84860@gmail.com)**.
+
+<sub>More project details, architecture notes, and results are available on my [portfolio](https://aniruddhadas.vercel.app).</sub>
