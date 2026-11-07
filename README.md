@@ -4,7 +4,9 @@
 
 ### Backend & Applied AI Engineer
 
-I build AI agents, machine-learning services, and the APIs that put them into production.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=19&duration=2800&pause=900&color=D93A2B&center=true&vCenter=true&repeat=true&width=760&height=45&lines=I+build+AI+agents+that+complete+real+tasks.;I+design+reliable+backend+APIs+for+production.;I+train+and+serve+measurable+ML+systems." alt="I build AI agents, production APIs, and measurable ML systems" />
+</a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://aniruddhadas.vercel.app)
 [![Resume](https://img.shields.io/badge/R%C3%A9sum%C3%A9-D93A2B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://aniruddhadas.vercel.app/Aniruddha_Resume.pdf)
@@ -79,6 +81,17 @@ An explainable candidate-ranking platform. Skill-aware TF-IDF matching improved 
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white)
+
+## Engineering activity
+
+<div align="center">
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=24f2006234&theme=github_dark" alt="Aniruddha's GitHub statistics" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=24f2006234&theme=github_dark" alt="Aniruddha's repositories by language" />
+
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=24f2006234&theme=github_dark" alt="Aniruddha's GitHub contribution activity" />
+
+</div>
 
 ## Let's talk
 
