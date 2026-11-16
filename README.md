@@ -86,12 +86,14 @@ An explainable candidate-ranking platform. Skill-aware TF-IDF matching improved 
 
 <div align="center">
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=24f2006234&theme=github_dark" alt="Aniruddha's GitHub statistics" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=24f2006234&theme=github_dark" alt="Aniruddha's repositories by language" />
+<img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg?v=bb26993dbca683cd" alt="Aniruddha's GitHub statistics" />
+<img width="49%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg?v=e50c1a4bafda82f3" alt="Aniruddha's repositories by language" />
 
-<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=24f2006234&theme=github_dark" alt="Aniruddha's GitHub contribution activity" />
+<img width="98%" src="./profile-summary-card-output/github_dark/0-profile-details.svg?v=368a8f4aaada738a" alt="Aniruddha's GitHub contribution activity" />
 
 </div>
+
+<sub>Refreshed hourly by GitHub Actions; GitHub scheduling and image caching can delay updates. Counts reflect activity visible to the workflow.</sub>
 
 ## Let's talk
 
