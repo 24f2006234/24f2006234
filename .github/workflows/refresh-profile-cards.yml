@@ -1,0 +1,75 @@
+name: Refresh GitHub profile cards
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-profile-cards.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate cards from GitHub
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: 24f2006234
+          THEME: github_dark
+          AUTO_PUSH: false
+      - name: Point README at generated cards with content-based cache keys
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from 'node:fs';
+          import { createHash } from 'node:crypto';
+          let readme = readFileSync('README.md', 'utf8');
+          const cards = [
+            ['stats', '3-stats'],
+            ['repos-per-language', '1-repos-per-language'],
+            ['profile-details', '0-profile-details'],
+          ];
+          for (const [endpoint, filename] of cards) {
+            const path = 'profile-summary-card-output/github_dark/' + filename + '.svg';
+            const svg = readFileSync(path, 'utf8');
+            if (!svg.includes('<svg') || /Something went wrong|API rate limit exceeded/i.test(svg)) {
+              throw new Error('Invalid generated card: ' + path);
+            }
+            const hash = createHash('sha256').update(svg).digest('hex').slice(0, 16);
+            const external = new RegExp('https://github-profile-summary-cards\\.vercel\\.app/api/cards/' + endpoint + '\\?[^"]*', 'g');
+            const local = new RegExp('(?:\\./)?profile-summary-card-output/github_dark/' + filename + '\\.svg(?:\\?[^"]*)?', 'g');
+            readme = readme.replace(external, './' + path + '?v=' + hash);
+            readme = readme.replace(local, './' + path + '?v=' + hash);
+          }
+          const note = '<sub>Refreshed hourly by GitHub Actions; GitHub scheduling and image caching can delay updates. Counts reflect activity visible to the workflow.</sub>';
+          if (!readme.includes(note)) {
+            readme = readme.replace("## Let's talk", note + "\n\n## Let's talk");
+          }
+          writeFileSync('README.md', readme);
+          NODE
+      - name: Commit refreshed cards
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md profile-summary-card-output/
+          if git diff --cached --quiet; then
+            echo 'Cards are already up to date.'
+            exit 0
+          fi
+          git commit -m "Refresh GitHub profile cards"
+          git pull --rebase origin main
+          git push origin HEAD:main
