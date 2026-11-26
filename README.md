@@ -89,7 +89,7 @@ An explainable candidate-ranking platform. Skill-aware TF-IDF matching improved 
 <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg?v=1367d3430c5c819e" alt="Aniruddha's GitHub statistics" />
 <img width="49%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg?v=e50c1a4bafda82f3" alt="Aniruddha's repositories by language" />
 
-<img width="98%" src="./profile-summary-card-output/github_dark/0-profile-details.svg?v=20aaa8a00d29e5e6" alt="Aniruddha's GitHub contribution activity" />
+<img width="98%" src="./profile-summary-card-output/github_dark/0-profile-details.svg?v=ada684730726317c" alt="Aniruddha's GitHub contribution activity" />
 
 </div>
 
